@@ -23,6 +23,10 @@ mix
         processCssUrls: false,
         // quietDeps: true
     })
+    .copyDirectory([
+        'node_modules/@fortawesome/fontawesome-free/webfonts',
+        // 'resources/fonts'
+    ], 'public/fonts')
     .version()
     .clean({
         cleanOnceBeforeBuildPatterns: [

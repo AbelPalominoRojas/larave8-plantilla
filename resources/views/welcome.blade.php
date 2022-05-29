@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-primary"> <i class="fa-solid fa-house-chimney"></i> Primary</button>
                 <button type="button" class="btn btn-secondary">Secondary</button>
                 <button type="button" class="btn btn-success">Success</button>
                 <button type="button" class="btn btn-danger">Danger</button>
