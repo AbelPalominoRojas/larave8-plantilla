@@ -1,0 +1,15 @@
+// Bootstrap
+
+@import 'variables';
+
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+
+@import 'overwrite';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+
+// Estilos - Propios
+@import 'fonts';
+@import 'style';

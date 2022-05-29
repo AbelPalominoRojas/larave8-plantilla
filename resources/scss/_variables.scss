@@ -1,0 +1,49 @@
+//=========== BOTSTRAP=========
+
+// scss-docs-start color-variables
+$white: #fff;
+$blue: #2196f3;
+$red: #f62d51;
+$yellow: #ffbc34;
+$green: #55ce63;
+$cyan: #03a9f3;
+// scss-docs-end color-variables
+
+// // scss-docs-start theme-color-variables
+$primary: $blue;
+$secondary: #607d8b;
+$dark: #2c3645;
+// // scss-docs-end theme-color-variables
+
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio: 2;
+
+// scss-docs-start navbar-theme-variables
+$navbar-dark-color: rgba($white, 0.7);
+$navbar-dark-hover-color: rgba($white, 0.9);
+
+// scss-docs-start card-variables
+$card-border-color: transparent;
+// scss-docs-end card-variables
+
+// scss-docs-start table-variables
+$table-striped-bg: #f8f9fa;
+$table-hover-bg: #e9ecef;
+// scss-docs-end table-variables
+
+// scss-docs-start badge-variables
+$badge-padding-y: 0.25em;
+$badge-padding-x: 0.45em;
+// scss-docs-end badge-variables
+
+//=========custom my variables=========
+// Create your own map
+$custom-colors: (
+	'accent': #34495e,
+	'teal': #009688,
+);
+
+
+// Estilos - Propios
+// ===========================

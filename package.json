@@ -10,10 +10,15 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "autoprefixer": "10.4.5",
         "axios": "^0.21",
+        "clean-webpack-plugin": "^4.0.0",
         "laravel-mix": "^6.0.6",
+        "laravel-mix-clean": "^0.1.0",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss": "^8.1.14",
+        "sass": "^1.52.1",
+        "sass-loader": "^12.1.0"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^6.1.1",
