@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
         <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,62 +53,6 @@
             </div>
         </div>
     </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-primary"> <i class="fa-solid fa-house-chimney"></i>
-                    Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-info">Info</button>
-                <button type="button" class="btn btn-light">Light</button>
-                <button type="button" class="btn btn-dark">Dark</button>
-
-                <button type="button" class="btn btn-link">Link</button>
-                <button type="button" class="btn btn-accent">Accent</button>
-                <button type="button" class="btn btn-teal">Teal</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="alert alert-primary" role="alert">
-                    A simple primary alert—check it out!
-                </div>
-                <div class="alert alert-secondary" role="alert">
-                    A simple secondary alert—check it out!
-                </div>
-                <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
-                </div>
-                <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
-                </div>
-                <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
-                </div>
-                <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
-                </div>
-                <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
-                </div>
-                <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
-                </div>
-                <div class="alert alert-teal" role="alert">
-                    A simple dark alert—check it out!
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-
-            </div>
-        </div>
-    </div>
 
     {{-- output the compiled JS --}}
     <script src="{{ mix('js/app.js') }}"></script>
