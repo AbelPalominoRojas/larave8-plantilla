@@ -10,7 +10,7 @@ $cyan: #03a9f3;
 // scss-docs-end color-variables
 
 // // scss-docs-start theme-color-variables
-$primary: $blue;
+$primary: #dc5547;
 $secondary: #607d8b;
 $dark: #2c3645;
 // // scss-docs-end theme-color-variables
@@ -40,7 +40,7 @@ $badge-padding-x: 0.45em;
 //=========custom my variables=========
 // Create your own map
 $custom-colors: (
-	'accent': #34495e,
+	'accent': #3b9a45,
 	'teal': #009688,
 );
 
@@ -51,3 +51,4 @@ $fa-font-path: '../fonts';
 
 // Estilos - Propios
 // ===========================
+$font-path: '../fonts';

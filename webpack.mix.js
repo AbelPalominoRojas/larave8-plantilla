@@ -25,8 +25,11 @@ mix
     })
     .copyDirectory([
         'node_modules/@fortawesome/fontawesome-free/webfonts',
-        // 'resources/fonts'
+        'resources/fonts'
     ], 'public/fonts')
+    .copyDirectory([
+        'resources/images'
+    ], 'public/images')
     .version()
     .clean({
         cleanOnceBeforeBuildPatterns: [

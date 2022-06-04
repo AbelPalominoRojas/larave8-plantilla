@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: local('Poppins Regular'),
+    local('Poppins-Regular'),
+    url('#{$font-path}/Poppins-Regular.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: local('Poppins Medium'),
+    local('Poppins-Medium'),
+    url('#{$font-path}/Poppins-Medium.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: local('Poppins Bold'),
+    local('Poppins-Bold'),
+    url('#{$font-path}/Poppins-Bold.otf') format('opentype')
+}
